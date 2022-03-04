@@ -25,7 +25,7 @@ function Header() {
           <div className="logo-block left">
             <Link to="/home">
               <img
-                src={backendurl + data.image}
+                src="http://localhost:5000/images/resize-logo.png"
                 alt="Conative It Solutions Logo"
               />
             </Link>

@@ -46,10 +46,7 @@ function Home(props) {
               </div>
             </div>
             <div className="banner-image-blk right">
-              <img
-                src={backendurl + "uploads/" + data.image}
-                alt="Conative Banner Image"
-              />
+              <img src={data.image} alt="Conative Banner Image" />
             </div>
           </div>
         </div>
